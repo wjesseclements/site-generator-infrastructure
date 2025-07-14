@@ -2,7 +2,7 @@ name: Deploy Infrastructure Template
 
 on:
   repository_dispatch:
-    types: [deploy-template]
+    types: [infrastructure-deployment]
 
 env:
   AWS_REGION: us-east-1
